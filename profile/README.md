@@ -8,7 +8,7 @@ module Main
 import Zevic.Console
 
 fn Main() {
-    Zevic.Console.Println("Hello, World!")
+    Console.Println("Hello, World!")
 }
 ```
 
