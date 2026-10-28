@@ -8,7 +8,7 @@ Zevic has not had a stable release yet. Only the latest commit on `main` is supp
 
 Please do not report security issues in public issues or pull requests.
 
-Use GitHub's private vulnerability reporting: open the repository's **Security** tab and choose **Report a vulnerability**. If that is unavailable, contact the maintainers at **[SECURITY CONTACT: add an email address before publishing]**.
+Use GitHub's private vulnerability reporting: open the repository's **Security** tab and choose **Report a vulnerability**. If that is unavailable, contact the maintainers at **ja.yamatov.dev@gmail.com**.
 
 Include a description of the problem, how to reproduce it, and the affected version or commit.
 
