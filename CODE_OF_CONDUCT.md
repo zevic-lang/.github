@@ -25,7 +25,7 @@ This code applies in all project spaces (repositories, issues, pull requests, di
 
 ## Enforcement
 
-Maintainers may edit or remove comments, close or lock threads, and ban contributors for behavior they find inappropriate. To report a problem, contact the maintainers at **[CONDUCT CONTACT: add an email address before publishing]**. Reports are handled privately, and the reporter's identity is kept confidential as far as possible.
+Maintainers may edit or remove comments, close or lock threads, and ban contributors for behavior they find inappropriate. To report a problem, contact the maintainers at **ja.yamatov.dev@gmail.com**. Reports are handled privately, and the reporter's identity is kept confidential as far as possible.
 
 ## Attribution
 
