@@ -1,0 +1,41 @@
+name: Bug report
+description: Something does not work as the specification says.
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Zevic version
+      description: Output of `zevic --version`, or the commit hash.
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: OS, CPU architecture, and clang version.
+      placeholder: "Windows 11 x64, clang 18.1"
+    validations:
+      required: true
+  - type: textarea
+    id: program
+    attributes:
+      label: Minimal program
+      description: The smallest `.zev` program that shows the problem.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: What happened, including the full error message.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What you expected, and the section of the specification if relevant.
+    validations:
+      required: true
