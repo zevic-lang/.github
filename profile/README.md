@@ -5,10 +5,10 @@ Zevic is a small, friendly, natively compiled language that can use C libraries 
 ```
 module Main
 
-import Zevic.Console
+import Zevic.Console as ZC
 
-fn Main() {
-    Console.Println("Hello, World!")
+fn Main(args: Array<String>) ->Unit {
+    ZC.Println("Hello, World!")
 }
 ```
 
