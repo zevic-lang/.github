@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-Zevic has not had a stable release yet. Only the latest commit on `main` is supported.
+Zevic is still 0.x. Only the latest release and the latest commit on `main` are supported. Please check that a problem still exists there before reporting it.
 
 ## Reporting a vulnerability
 
@@ -20,4 +20,6 @@ Include a description of the problem, how to reproduce it, and the affected vers
 
 ## Scope
 
-Examples of issues we care about: the compiler generating code that violates memory safety rules in the specification, `zevpm get` fetching or running something unexpected, and the runtime or standard library mishandling input.
+Examples of issues we care about: the compiler generating code that violates memory safety rules in the specification, `zevpm get` fetching or running something unexpected, the installers and the apt repository serving something other than the released files, and the runtime or standard library mishandling input (parsers such as `Json`, `Toml`, `Csv`, `Zip` and `Tar`, and `Http`).
+
+Bugs that are not security issues, such as a wrong result or a compiler crash on valid code, go in the normal bug report form.
