@@ -13,4 +13,4 @@ Sketch the change. Show example code.
 **Cost**
 What gets more complicated? Does it conflict with the design values (simple, explicit, one obvious way)?
 
-If the idea gets support, write a full proposal as a pull request to `docs/proposals/`.
+If the idea gets support, write a full proposal as a pull request that adds `docs/proposals/NNNN-short-title.md` to the `zevic` repository (copy `0000-template.md`).
