@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Question or idea
-    url: https://github.com/orgs/zevic-lang/discussions
-    about: Ask questions and share ideas in Discussions (enable Discussions on the organization first).
+  - name: Documentation and tutorials
+    url: https://zevic-lang.github.io/en/start/
+    about: Check the tutorial and the "coming from other languages" guide first.
+  - name: Security vulnerability
+    url: https://github.com/zevic-lang/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Follow the security policy instead.
